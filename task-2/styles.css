@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+}
+
+header {
+  background-color: darkturquoise;
+  height: 40px;
+}
+
+li {
+  height: 40px;
+  margin-left: 16px;
+  color: white;
+  float: left;
+  line-height: 40px;
+  list-style-type: none;
+}
+
+main {
+  background-color: beige;
+  height: 5000px;
+}
+
+.head {
+  height: 200px;
+  width: 200px;
+  background-color: aquamarine;
+  top: calc(50% - 100px);
+}
