@@ -25,5 +25,45 @@ main {
   height: 200px;
   width: 200px;
   background-color: aquamarine;
-  top: calc(50% - 100px);
+  position: absolute;
+  top: calc(50%);
+  left: calc(50%);
+}
+
+.ear_right {
+  width: 40px;
+  height: 60px;
+  background-color: brown;
+  position: relative;
+  left: 200px;
+  bottom: 60px;
+}
+
+.ear_left {
+  width: 40px;
+  height: 60px;
+  background-color: brown;
+  position: relative;
+  right: 40px;
+  bottom: 120px;
+}
+
+.eye_right {
+  background-color: grey;
+  width: 30px;
+  height: 30px;
+  border-radius: 30px;
+  position: relative;
+  bottom: 80px;
+  left: 40px;
+}
+
+.eye_left {
+  background-color: grey;
+  width: 30px;
+  height: 30px;
+  border-radius: 30px;
+  position: relative;
+  right: 40px;
+  bottom: 80px;
 }
