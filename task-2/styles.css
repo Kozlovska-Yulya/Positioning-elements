@@ -5,6 +5,10 @@
 header {
   background-color: darkturquoise;
   height: 40px;
+  width: 100%;
+  top: 0;
+  line-height: 10px;
+  position: fixed;
 }
 
 nav li {
@@ -12,7 +16,7 @@ nav li {
   margin-left: 16px;
   color: white;
   float: left;
-  line-height: 40px;
+
   list-style-type: none;
 }
 
