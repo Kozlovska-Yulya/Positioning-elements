@@ -53,7 +53,7 @@ main {
   width: 30px;
   height: 30px;
   border-radius: 30px;
-  position: relative;
+  position: absolute;
   bottom: 80px;
   left: 40px;
 }
@@ -63,7 +63,7 @@ main {
   width: 30px;
   height: 30px;
   border-radius: 30px;
-  position: relative;
-  right: 40px;
+  position: absolute;
   bottom: 80px;
+  right: 40px;
 }
