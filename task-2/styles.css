@@ -5,12 +5,13 @@
 .header {
   background-color: darkturquoise;
   height: 40px;
-  position: fixed;
   width: 100%;
+  position: fixed;
 }
 
-.navigation {
+.nav-list {
   height: 40px;
+  margin: 0;
 }
 
 .nav-item {
@@ -18,7 +19,7 @@
   line-height: 40px;
   margin-left: 16px;
   color: white;
-  list-style-type: none;
+  list-style: none;
 }
 
 .content {
@@ -27,8 +28,8 @@
 }
 
 .head {
-  height: 200px;
   width: 200px;
+  height: 200px;
   background-color: aquamarine;
   position: absolute;
   top: calc(50%);
@@ -54,21 +55,21 @@
 }
 
 .eye_right {
-  background-color: grey;
   width: 30px;
   height: 30px;
   border-radius: 30px;
+  background-color: grey;
   position: absolute;
-  bottom: 80px;
   left: 40px;
+  bottom: 80px;
 }
 
 .eye_left {
-  background-color: grey;
   width: 30px;
   height: 30px;
   border-radius: 30px;
+  background-color: grey;
   position: absolute;
-  bottom: 80px;
   right: 40px;
+  bottom: 80px;
 }
