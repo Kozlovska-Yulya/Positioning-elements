@@ -33,8 +33,9 @@
   height: 200px;
   background-color: aquamarine;
   position: absolute;
-  top: calc(50%);
-  left: calc(50%);
+
+  top: calc(50% - 100px);
+  left: calc(50% - 100px);
   z-index: 0;
 }
 
