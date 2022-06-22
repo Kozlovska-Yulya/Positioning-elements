@@ -2,26 +2,26 @@
   box-sizing: border-box;
 }
 
-header {
+.header {
   background-color: darkturquoise;
   height: 40px;
   position: fixed;
   width: 100%;
 }
 
-nav ul li {
+.navigation {
   height: 40px;
 }
 
-li {
+.nav-item {
   float: left;
-  line-height: 50%;
+  line-height: 40%;
   margin-left: 16px;
   color: white;
   list-style-type: none;
 }
 
-main {
+.content {
   background-color: beige;
   height: 5000px;
 }
