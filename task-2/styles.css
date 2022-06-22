@@ -9,13 +9,13 @@ header {
   width: 100%;
 }
 
-nav ul {
+nav ul li {
   height: 40px;
 }
 
 li {
   float: left;
-  line-height: 2;
+  line-height: 50%;
   margin-left: 16px;
   color: white;
   list-style-type: none;
